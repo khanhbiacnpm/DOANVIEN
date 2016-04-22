@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.HealthCare</name>
+      <friendlyname>HealthCare</friendlyname>
+      <foldername>VNPT.HealthCare</foldername>
+      <modulename>VNPT.HealthCare</modulename>
+      <description>A HealthCare module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>VNPT.Modules.HealthCare.HealthCareController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>HealthCare</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/HealthCare/ViewHealthCare.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>            
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewHealthCare.ascx</name>
+        </file>
+        <file>
+          <name>ViewHealthCare.ascx.cs</name>
+        </file>        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>HRM_SangKienLoai</name>
+      <friendlyname>HRM_SangKienLoai</friendlyname>
+      <foldername>SangKien</foldername>
+      <modulename>HRM_SangKienLoai</modulename>
+      <description>A HRM_SangKienLoai module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass></businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>HRM_SangKienLoai</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/SangKien/SangKienLoai.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>SangKienLoai.ascx</name>
+        </file>
+        <file>
+          <name>SangKienLoai.ascx.cs</name>
+        </file>                       
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

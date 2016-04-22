@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>ThaiSan</name>
+      <friendlyname>ThaiSan</friendlyname>
+      <foldername>GIAYNGHIPHEP</foldername>
+      <modulename>ThaiSan</modulename>
+      <description>A ThaiSan module</description>
+      <version>01.00.00</version>
+      
+      <modules>
+        <module>
+          <friendlyname>ThaiSan</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/GIAYNGHIPHEP/ThaiSan.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ThaiSan.ascx</name>
+        </file>
+        <file>
+          <name>ThaiSan.ascx.cs</name>
+        </file>             
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

@@ -1,0 +1,32 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>HRM_ThongKeLaoDongTheoLuongA</name>
+      <friendlyname>HRM_ThongKeLaoDongTheoLuongA</friendlyname>
+      <modulename>HRM_ThongKeLaoDongTheoLuongA</modulename>
+      <description>A HRM_ThongKeLaoDongTheoLuongA module</description>
+      <version>01.00.00</version>
+      <modules>
+        <module>
+          <friendlyname>HRM_ThongKeLaoDongTheoLuongA</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/ThongKe/ThongKeLaoDongTheoLuongA.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>ThongKeLaoDongTheoLuongA.ascx</name>
+        </file>
+        <file>
+          <name>ThongKeLaoDongTheoLuongA.ascx.cs</name>
+        </file>                        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

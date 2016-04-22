@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>GiayKhenVTT</name>
+      <friendlyname>GiayKhenVTT</friendlyname>
+      <foldername>GiayKhenVTT</foldername>
+      <modulename>GiayKhenVTT</modulename>
+      <description>A GiayKhenVTT module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass></businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>GiayKhenVTT</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/KhenThuong/GiayKhenVTT.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>GiayKhenVTT.ascx</name>
+        </file>
+        <file>
+          <name>GiayKhenVTT.ascx.cs</name>
+        </file>                       
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

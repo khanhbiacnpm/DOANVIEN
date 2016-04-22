@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>EmpOffice</name>
+      <friendlyname>EmpOffice</friendlyname>
+      <foldername>EmpOffice</foldername>
+      <modulename>EmpOffice</modulename>
+      <description>A EmpOffice module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>Philip.Modules.EmpOffice.EmpOfficeController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>EmpOffice</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/EmpOffice/ViewEmpOffice.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>            
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewEmpOffice.ascx</name>
+        </file>
+        <file>
+          <name>ViewEmpOffice.ascx.cs</name>
+        </file>        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

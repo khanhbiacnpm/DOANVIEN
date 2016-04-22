@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://partner.ws" xmlns:impl="http://partner.ws" targetNamespace="http://partner.ws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="SendMessageResponse">
+    <wsdl:part name="SendMessageReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="ReSendSMSResponse">
+    <wsdl:part name="ReSendSMSReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="receiveMORequest">
+    <wsdl:part name="sender" type="xsd:string" />
+    <wsdl:part name="receiver" type="xsd:string" />
+    <wsdl:part name="content" type="xsd:string" />
+    <wsdl:part name="messageID" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="receiveMOResponse">
+    <wsdl:part name="receiveMOReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="ReSendSMSRequest">
+    <wsdl:part name="messageID" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageRequest">
+    <wsdl:part name="user" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+    <wsdl:part name="receiver" type="xsd:string" />
+    <wsdl:part name="Content" type="xsd:string" />
+    <wsdl:part name="serviceId" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceMO">
+    <wsdl:operation name="receiveMO" parameterOrder="sender receiver content messageID">
+      <wsdl:input name="receiveMORequest" message="impl:receiveMORequest" />
+      <wsdl:output name="receiveMOResponse" message="impl:receiveMOResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ReSendSMS" parameterOrder="messageID">
+      <wsdl:input name="ReSendSMSRequest" message="impl:ReSendSMSRequest" />
+      <wsdl:output name="ReSendSMSResponse" message="impl:ReSendSMSResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage" parameterOrder="user password receiver Content serviceId">
+      <wsdl:input name="SendMessageRequest" message="impl:SendMessageRequest" />
+      <wsdl:output name="SendMessageResponse" message="impl:SendMessageResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceMOSoapBinding" type="impl:ServiceMO">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="receiveMO">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="receiveMORequest">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="receiveMOResponse">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReSendSMS">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="ReSendSMSRequest">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="ReSendSMSResponse">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="SendMessageRequest">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="SendMessageResponse">
+        <wsdlsoap:body use="encoded" namespace="http://partner.ws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceMOService">
+    <wsdl:port name="ServiceMO" binding="impl:ServiceMOSoapBinding">
+      <wsdlsoap:address location="http://203.162.230.22:8088/MOServicePartner/services/ServiceMO" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.FamilyRelationship</name>
+      <friendlyname>FamilyRelationship</friendlyname>
+      <foldername>VNPT.FamilyRelationship</foldername>
+      <modulename>VNPT.FamilyRelationship</modulename>
+      <description>A FamilyRelationship module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>VNPT.Modules.FamilyRelationship.FamilyRelationshipController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>FamilyRelationship</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/FamilyRelationship/ViewFamilyRelationship.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>            
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewFamilyRelationship.ascx</name>
+        </file>
+        <file>
+          <name>ViewFamilyRelationship.ascx.cs</name>
+        </file>        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

@@ -1,0 +1,33 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>QLDV_HoatDongDoan</name>
+      <friendlyname>QLDV_HoatDongDoan</friendlyname>
+      <foldername>BaoCaoDoanVien</foldername>
+      <modulename>QLDV_HoatDongDoan</modulename>
+      <description>A QLDV_HoatDongDoan module</description>
+      <version>01.00.00</version>     
+      <modules>
+        <module>
+          <friendlyname>QLDV_HoatDongDoan</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/BaoCaoDoanVien/QLDV_HoatDongDoan.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>QLDV_HoatDongDoan.ascx</name>
+        </file>
+        <file>
+          <name>QLDV_HoatDongDoan.ascx.cs</name>
+        </file>             
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

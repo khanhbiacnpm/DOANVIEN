@@ -1,0 +1,32 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>HRM_THANHTICH_CANHAN</name>
+      <friendlyname>HRM_THANHTICH_CANHAN</friendlyname>
+      <modulename>HRM_THANHTICH_CANHAN</modulename>
+      <description>A HRM_THANHTICH_CANHAN module</description>
+      <version>01.00.00</version>
+      <modules>
+        <module>
+          <friendlyname>HRM_THANHTICH_CANHAN</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/ThongKe/ThanhTichCaNhan.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>ThanhTichCaNhan.ascx</name>
+        </file>
+        <file>
+          <name>ThanhTichCaNhan.ascx.cs</name>
+        </file>                        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

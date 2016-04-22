@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.MTCV.CHUCDANH</name>
+      <friendlyname>VNPT.MTCV.CHUCDANH</friendlyname>
+      <foldername>VNPT.MTCV</foldername>
+      <modulename>VNPT.MTCV.CHUCDANH</modulename>
+      <description>VNPT.MTCV.CHUCDANH</description>
+      <version>01.00.00</version>
+      
+      <modules>
+        <module>
+          <friendlyname>MTCV</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/MTCV/MTCV.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>           
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>MTCV.ascx</name>
+        </file>
+        <file>
+          <name>MTCV.ascx.cs</name>
+        </file>                    
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>
