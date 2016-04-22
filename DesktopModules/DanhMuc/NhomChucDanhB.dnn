@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.NhomChucDanhB</name>
+      <friendlyname>NhomChucDanhB</friendlyname>
+      <foldername>VNPT.NhomChucDanhB</foldername>
+      <modulename>VNPT.NhomChucDanhB</modulename>
+      <description>A NhomChucDanhB module</description>
+      <version>01.00.00</version>
+      
+      <modules>
+        <module>
+          <friendlyname>NhomChucDanhB</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/DanhMuc/NhomChucDanhB.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>           
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>NhomChucDanhB.ascx</name>
+        </file>
+        <file>
+          <name>NhomChucDanhB.ascx.cs</name>
+        </file>                    
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

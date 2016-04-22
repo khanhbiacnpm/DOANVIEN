@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>DSBaoHiem</name>
+      <friendlyname>DSBaoHiem</friendlyname>
+      <foldername>BaoHiem</foldername>
+      <modulename>DSBaoHiem</modulename>
+      <description>A DSBaoHiem module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>Philip.Modules.BaoHiem.BaoHiemController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>DSBaoHiem</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/BaoHiem/ViewDSBaoHiem.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewDSBaoHiem.ascx</name>
+        </file>
+        <file>
+          <name>ViewDSBaoHiem.ascx.cs</name>
+        </file>             
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

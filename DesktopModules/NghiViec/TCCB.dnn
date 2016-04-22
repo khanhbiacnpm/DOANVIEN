@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>TCCB</name>
+      <friendlyname>TCCB</friendlyname>
+      <foldername>TCCB</foldername>
+      <modulename>TCCB</modulename>
+      <description>A TCCB module</description>
+      <version>01.00.00</version>
+      
+      <modules>
+        <module>
+          <friendlyname>HuuTri</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/NghiViec/TCCB.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>TCCB.ascx</name>
+        </file>
+        <file>
+          <name>TCCB.ascx.cs</name>
+        </file>             
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

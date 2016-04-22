@@ -1,0 +1,35 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>SapTangLuong</name>
+      <friendlyname>SapTangLuong</friendlyname>
+      <foldername>GIAYNGHIPHEP</foldername>
+      <modulename>SapTangLuong</modulename>
+      <description>A SapTangLuong module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass></businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>SapTangLuong</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/GIAYNGHIPHEP/SapTangLuong.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>SapTangLuong.ascx</name>
+        </file>
+        <file>
+          <name>SapTangLuong.ascx.cs</name>
+        </file>             
+       
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

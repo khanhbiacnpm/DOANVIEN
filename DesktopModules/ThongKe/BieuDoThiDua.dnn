@@ -1,0 +1,32 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>HRM_BieuDoThiDua</name>
+      <friendlyname>HRM_BieuDoThiDua</friendlyname>
+      <modulename>HRM_BieuDoThiDua</modulename>
+      <description>A HRM_BieuDoThiDua module</description>
+      <version>01.00.00</version>
+      <modules>
+        <module>
+          <friendlyname>HRM_BieuDoThiDua</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/ThongKe/BieuDoThiDua.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>BieuDoThiDua.ascx</name>
+        </file>
+        <file>
+          <name>BieuDoThiDua.ascx.cs</name>
+        </file>                        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

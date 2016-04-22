@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.PartyMember</name>
+      <friendlyname>PartyMember</friendlyname>
+      <foldername>VNPT.PartyMember</foldername>
+      <modulename>VNPT.PartyMember</modulename>
+      <description>A PartyMember module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>VNPT.Modules.PartyMember.PartyMemberController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>PartyMember</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/PartyMember/ViewPartyMember.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>            
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewPartyMember.ascx</name>
+        </file>
+        <file>
+          <name>ViewPartyMember.ascx.cs</name>
+        </file>        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

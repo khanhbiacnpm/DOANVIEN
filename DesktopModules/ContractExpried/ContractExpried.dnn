@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>Philip.ContractExpried</name>
+      <friendlyname>ContractExpried</friendlyname>
+      <foldername>Philip.ContractExpried</foldername>
+      <modulename>Philip.ContractExpried</modulename>
+      <description>A ContractExpried module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>Philip.Modules.ContractExpried.ContractExpriedController</businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>ContractExpried</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/ContractExpried/ViewContractExpried.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>            
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>ViewContractExpried.ascx</name>
+        </file>
+        <file>
+          <name>ViewContractExpried.ascx.cs</name>
+        </file>        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

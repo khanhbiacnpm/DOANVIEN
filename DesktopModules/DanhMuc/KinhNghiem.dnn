@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>VNPT.KinhNghiem</name>
+      <friendlyname>KinhNghiem</friendlyname>
+      <foldername>VNPT.NhomChucDanh</foldername>
+      <modulename>VNPT.KinhNghiem</modulename>
+      <description>A KinhNghiem module</description>
+      <version>01.00.00</version>
+      
+      <modules>
+        <module>
+          <friendlyname>KinhNghiem</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/DanhMuc/KinhNghiem.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>           
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>KinhNghiem.ascx</name>
+        </file>
+        <file>
+          <name>KinhNghiem.ascx.cs</name>
+        </file>                    
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

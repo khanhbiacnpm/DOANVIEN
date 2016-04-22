@@ -1,0 +1,34 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>CanhBao</name>
+      <friendlyname>CanhBao</friendlyname>
+      <foldername>CanhBao</foldername>
+      <modulename>CanhBao</modulename>
+      <description>A CanhBao module</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass></businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>CanhBao</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <src>DesktopModules/CanhBao/CanhBao.ascx</src>
+              <type>View</type>
+              <helpurl></helpurl>
+            </control>             
+          </controls>
+        </module>
+      </modules>
+      <files>        
+        <file>
+          <name>CanhBao.ascx</name>
+        </file>
+        <file>
+          <name>CanhBao.ascx.cs</name>
+        </file>                        
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>

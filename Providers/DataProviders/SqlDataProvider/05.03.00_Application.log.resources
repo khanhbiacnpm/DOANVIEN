@@ -1,0 +1,6 @@
+Error: Access to the path is denied.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DotNetNuke.Services.Upgrade.Upgrade.UpgradeToVersion_530()
+   at DotNetNuke.Services.Upgrade.Upgrade.UpgradeApplication(String strProviderPath, Version version, Boolean writeFeedback)
+

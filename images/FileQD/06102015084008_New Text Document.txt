@@ -1,0 +1,54 @@
+ nIzzywhNDJEaF9MngJfnZGZQJUk
+
+var kq = (from x in ds.Tables[0].AsEnumerable()
+                           select new
+                           {
+                               madaotao = x.Field<string>("madaotao"),
+                               khoadaotao = x.Field<string>("khoadaotao")
+                           }).FirstOrDefault().ToJson();
+                cb_luukhoadaotao.JSProperties["cpKQ"] = kq;
+                cb_luukhoadaotao.JSProperties["cpOP"] = 1;
+
+                //var list = (from x in ds.Tables[1].AsEnumerable()
+                //            select new {
+                //                a = x.Field<string>("hoten")
+                //            }).ToJson();
+
+                //cb_luukhoadaotao.JSProperties["cpLIST"] = list;
+                //if (tb.Rows.Count > 0)
+                //{                    
+                //    txt_madaotao.Text = tb.Rows[0]["madaotao"].ToString();
+                //    txt_khoadaotao.Text = tb.Rows[0]["khoadaotao"].ToString();
+                //}
+
+function xuly_daotao(s,e) {
+        if (cb_luukhoadaotao.cpOP == 0) {
+            ShowKhoa();
+            gridKhoaDaoTao.PerformCallback(cmb_nam.GetValue());
+            delete cb_luukhoadaotao.cpLuu;
+        }
+        else if (cb_luukhoadaotao.cpOP == 1) {
+            var kq = $.parseJSON(cb_luukhoadaotao.cpKQ);
+            var list = $.parseJSON(cb_luukhoadaotao.cpLIST);
+            for (var i = 0; i < list.length; i++) {
+                var item = list[i];
+                alert(item.a);
+            }
+            alert(kq.madaotao);
+            alert(kq.khoadaotao);            
+        }
+    }
+
+0084, 02.084
+
+https://www.privatetunnel.com/index.php?referral=FSCZT49H0U
+OMS_THONGKE_XULY_VANBAN
+
+616201962
+5506
+
+http://www.supersonicads.com/delivery/singleBanner.php?applicationUserId=100004903755276&applicationKey=2a774579&publisherSubId=0&size=500x500&landingId=0&campaignId=317342&bannerId=400448&campaignIdSignature=8246d595030f0b166540273e4cee7c5f&deliveryType=11&platformType=4&suppressImpressionsStats=1&statsLandingId=215&statsPosition=1001&optimizationId=124&referrerId=11018&language=EN&xmlVersion=1&deviceOs=android&deviceOSVersion=3.0&itemName=rest&itemCount=1&timestamp=1399510433&itemSignature=7ee78348a407902f39be84070dc5c73f&custom_country=VN
+
+0972035374 binh ruou
+
+0743885557 dang
